@@ -51,12 +51,12 @@ with col1:
             st.session_state.skills_list.append(skill)
             st.success(f"Skill Added ✅")
             time.sleep(1.5)
-            st.experimental_rerun()
+            st.rerun()
 
 with col2:
     if st.button("Clear All"):
         st.session_state.skills_list=[]
-        st.experimental_rerun()
+        st.rerun()
 
 if st.button("Find Jobs"):
     #st.session_state.skill_input=" "

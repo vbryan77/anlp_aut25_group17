@@ -1,0 +1,15 @@
+Hello there, welcome to Crafted Path.
+
+The web app is created on Streamlit and uses Python3.10.
+
+Here are the instructions to run it on Mac:
+
+1. Open terminal
+2. Type in "pip install streamlit" if you do not have streamlit and make sure that your Python
+is set to 3.10
+3. Go to the github link, download the file from the github repo and store it somewhere easy to access 
+(make sure to copy the pathname)
+4. Go back to terminal and then type "cd" and paste the pathname
+5. Run "streamlit run Home.py" and then your browser will direct you to the web app
+
+Please follow these instructions to run the app on Windows:
